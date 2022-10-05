@@ -1,0 +1,1 @@
+export { FindByPropsPlugin } from './FindByPropsPlugin';

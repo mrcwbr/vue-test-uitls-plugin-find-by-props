@@ -1,0 +1,51 @@
+{
+  "name": "vue-test-utils-plugin-find-by-props",
+  "version": "0.0.0",
+  "description": "Plugin vor @vue/test-utils to find components by its props",
+  "keywords": [
+    "vue",
+    "vue-test-uitls",
+    "plugin",
+    "find",
+    "by",
+    "props"
+  ],
+  "files": [
+    "dist/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "homepage": "https://github.com/mrcwbr/vue-test-utils-plugin-find-by-props#readme",
+  "bugs": {
+    "url": "https://github.com/mrcwbr/vue-test-utils-plugin-find-by-props/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrcwbr/vue-test-utils-plugin-find-by-props.git"
+  },
+  "license": "MIT",
+  "author": "mrcwbr",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.5.2",
+    "@types/lodash": "^4.14.186",
+    "@vue/cli-plugin-unit-jest": "^5.0.8",
+    "@vue/vue3-jest": "^27.0.0",
+    "jest": "^27.5.1",
+    "jest-environment-jsdom": "^27.5.1",
+    "ts-jest": "^27.1.5",
+    "typescript": "^4.8.4"
+  },
+  "peerDependencies": {
+    "@vue/test-utils": "^2.0.0",
+    "vue": "^3.0.1"
+  }
+}
