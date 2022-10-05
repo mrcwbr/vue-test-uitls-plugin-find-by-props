@@ -6,14 +6,14 @@ Plugin for [@vue/test-utils](https://github.com/vuejs/test-utils) to find compon
 
 This small plugin extends the `Vue Wrapper` with following tho methods:
 
-* findAllComponentsByProps()
-* findComponentByProps()
+* `findAllComponentsByProps()`
+* `findComponentByProps()`
 
-Therefore, it's possible to find components with specific props
+Therefore, it's possible to find components with specific props.
 
 ## Installation
 
-1. install this plugin via e.g. npm `npm install vue-test-utils-plugin-find-by-props --save-dev`
+1. Install this plugin via e.g. `npm install vue-test-utils-plugin-find-by-props --save-dev`
 2. Add the following file to your test setup file - e.g.: `jest.setup.ts`
     ```typescript
     import { config } from '@vue/test-utils';
@@ -43,9 +43,9 @@ with a `Save` and `Cancle` button like this:
 ```vue
 
 <div class="modal">
-Do you want to Save?
-<MyButton title="Save" />
-<MyButton title="Cancel" />
+  Do you want to Save?
+  <MyButton title="Save" />
+  <MyButton title="Cancel" />
 </div>
 
 ```
