@@ -26,9 +26,6 @@ jobs:
       - name: build
         run: npm run build
 
-      - name: sonar scanner
-        run: npm run sonar -- -Dsonar.login=${{ secrets.SONAR_AUTH_TOKEN }}
-
       - name: SonarCloud Scan
         uses: sonarsource/sonarcloud-github-action@master
         env:
