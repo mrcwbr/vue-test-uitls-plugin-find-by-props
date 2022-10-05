@@ -1,5 +1,11 @@
 # vue-test-utils-plugin-find-by-props
 
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=vue-test-utils-plugin-find-by-props&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=vue-test-utils-plugin-find-by-props)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=vue-test-utils-plugin-find-by-props&metric=bugs)](https://sonarcloud.io/summary/new_code?id=vue-test-utils-plugin-find-by-props)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=vue-test-utils-plugin-find-by-props&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=vue-test-utils-plugin-find-by-props)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=vue-test-utils-plugin-find-by-props&metric=coverage)](https://sonarcloud.io/summary/new_code?id=vue-test-utils-plugin-find-by-props)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=vue-test-utils-plugin-find-by-props&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=vue-test-utils-plugin-find-by-props)
+
 Plugin for [@vue/test-utils](https://github.com/vuejs/test-utils) to find components by its props.
 
 ## Usage Case
